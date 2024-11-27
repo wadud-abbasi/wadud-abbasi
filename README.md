@@ -23,3 +23,26 @@ I am particularly interested in studying electrical phenomena for RNNs and pharm
 <img align="left" alt="Jupyter" width="40px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jupyter/jupyter-original-wordmark.svg"/>
 <img align="left" alt="AWS" width="40px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" />
 <br />
+
+<br>
+
+## Current Research Interests
+
+<div style="display: flex; justify-content: center;">
+
+<table>
+  <tr>
+    <td>
+      <p>
+        I am deeply interested in exploring EEG data and developing machine learning applications to harness its potential for understanding brain activity. My research focuses on optimizing models like CSP to enhance the classification of multichannel signals, with a particular emphasis on diagnosing psychiatric disorders. By investigating the efficiency and adaptability of these models, I aim to contribute to improved diagnostic tools that leverage EEG’s rich temporal and spatial information for early and accurate identification of mental health conditions.
+      </p>
+      <img src="https://github.com/user-attachments/assets/b1978f98-46dc-4739-aeef-51b7cfc29cfb" width="600">
+    </td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/a0e9454d-92a8-47e1-a9ff-50ca5afa43d0" width="12000">
+    </td>
+  </tr>
+</table>
+
+</div>
+
