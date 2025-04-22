@@ -1,11 +1,11 @@
 # Abdul Wadud Abbasi
-I have a bird barn at home and I love raising them a lot, but they make a huge mess when I give them a duck and bird bath. Quack!
+I have a huge bird barn at home and I love raising them a lot, but they make a huge mess when I give them a duck and bird bath. Quack! I specialize in intelligent software development, medical care equipment, and practical solutions to having fun with your animals. 
 
 ## Machine Learning Engineer
 
-I am particularly interested in studying electrical phenomena for RNNs and pharmacogenomic specificity. I believe that everyone deserves medications tailored to their specific symptoms without third-party informants, which is why I am vetted to understand the micro/macro aspects of medicine. 
+I am particularly interested in studying electrical phenomena for RNNs and pharmacogenomic specificity. I believe that everyone deserves medications tailored to their specific symptoms without third-party informants, which is why I am vetted to understand the micro/macro aspects of medicine.
 
-### 
+I'd love to chat about your projects over these languages and Python libraries.
 
 <img align="left" alt="MATLAB" width="40px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/matlab/matlab-original.svg" />
 <img align="left" alt="Tensorflow" width="40px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tensorflow/tensorflow-original.svg"/>
@@ -22,6 +22,6 @@ I am particularly interested in studying electrical phenomena for RNNs and pharm
 <br>
 
 ## Current Research Projects
-Standard operating procedures (SOP) database management leveraging artificial intelligence
-Drug discovery algorithms from homemade LLMs using JAX and pretrained models
-Epileptic seizure detection brain-implant device with customizable BCI
+- Standard operating procedures (SOP) database management leveraging artificial intelligence
+- Drug discovery algorithms from homemade LLMs using JAX and pretrained models
+- Epileptic seizure detection brain-implant device with customizable BCI
