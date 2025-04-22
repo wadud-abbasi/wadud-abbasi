@@ -1,5 +1,5 @@
 # Abdul Wadud Abbasi
-I have a huge bird barn at home and I love raising them a lot, but they make a huge mess when I give them a duck and bird bath. Quack! I specialize in intelligent software development, medical care equipment, and practical solutions to having fun with your animals. 
+I have a huge bird barn at home and I love raising my animal friends, but they make a huge mess when I give them a duck and bird bath. Quack! I specialize in intelligent software development, medical care equipment, and practical solutions to having fun with your animals. 
 
 ## Machine Learning Engineer
 
