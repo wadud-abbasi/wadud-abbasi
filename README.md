@@ -1,5 +1,5 @@
 # Abdul Wadud Abbasi
-I have a bird barn at home and I love raising them a lot, but they make a huge mess when I give them a duck and bird bath
+I have a bird barn at home and I love raising them a lot, but they make a huge mess when I give them a duck and bird bath. Quack!
 
 ## Machine Learning Engineer
 
