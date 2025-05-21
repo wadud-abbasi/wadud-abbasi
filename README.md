@@ -5,8 +5,6 @@ Ernest Mario School of Pharmacy, Rutgers University (Pharm.D.)
 
 🐣 Outside the lab, I raise over **30 feathered friends** — from chirping chicks to quacking ducks!
 
----
-
 ## 🧠 Machine Learning Craftsman
 
 Passionate about the cutting edge of machine learning deployment, especially in healthcare and biomedical research.
