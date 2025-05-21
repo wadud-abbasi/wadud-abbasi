@@ -1,11 +1,18 @@
 # Abdul Wadud Abbasi
-I have a huge bird barn at home and I love raising my animal friends, but they make a huge mess when I give them a duck and bird bath. Quack! I specialize in intelligent software development, medical care equipment, and practical solutions to having fun with your animals. 
 
-## Machine Learning Engineer
+🎓 **Doctoral Candidate**  
+Ernest Mario School of Pharmacy, Rutgers University (Pharm.D.)
 
-I am particularly interested in studying electrical phenomena for RNNs and pharmacogenomic specificity. I believe that everyone deserves medications tailored to their specific symptoms without third-party informants, which is why I am vetted to understand the micro/macro aspects of medicine.
+🐣 Outside the lab, I raise over **30 feathered friends** — from chirping chicks to quacking ducks!
 
-I'd love to chat about your projects over these languages and Python libraries.
+---
+
+## 🧠 Machine Learning Craftsman
+
+Passionate about the cutting edge of machine learning deployment, especially in healthcare and biomedical research.
+
+📚 Constantly reading up on the latest in AI/ML, signal processing, and LLMs.  
+💬 Let's talk code, research, or your next big project!
 
 <img align="left" alt="MATLAB" width="40px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/matlab/matlab-original.svg" />
 <img align="left" alt="Tensorflow" width="40px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tensorflow/tensorflow-original.svg"/>
