@@ -1,15 +1,18 @@
 #!/usr/bin/env python3
 """
 HTML to SVG Converter
-Converts src/index.html to src/images/index.svg
+Converts src/index.html to src/images/index.svg with embedded fonts for GitHub README display
 """
 
 import re
+import os
+import base64
 from pathlib import Path
 
 def html_to_svg():
     """
     Convert src/index.html to src/images/index.svg with white text on transparent background.
+    Embeds fonts directly in SVG for robust display in GitHub README.
     """
     # Get file paths
     script_dir = Path(__file__).parent
@@ -67,11 +70,56 @@ def html_to_svg():
     </foreignObject>
 </svg>"""
     
+    # Process font files to embed them directly in the SVG
+    fonts_dir = project_root / "src" / "fonts"
+    embedded_fonts = ""
+    
+    if fonts_dir.exists() and fonts_dir.is_dir():
+        for font_file in fonts_dir.glob("*.ttf"):
+            print(f"Embedding font: {font_file.name}")
+            try:
+                # Read font file binary content
+                with open(font_file, "rb") as f:
+                    font_data = f.read()
+                
+                # Convert to base64
+                font_b64 = base64.b64encode(font_data).decode("ascii")
+                
+                # Extract font name from the file name
+                font_name = font_file.stem
+                
+                # Create embedded @font-face rule
+                embedded_fonts += f"""
+@font-face {{
+                    font-family: '{font_name}';
+                    src: url('data:font/truetype;base64,{font_b64}');
+                    font-weight: normal;
+                    font-style: normal;
+                }}
+                """
+            except Exception as e:
+                print(f"Error embedding font {font_file.name}: {e}")
+    
+    # Create SVG with embedded fonts directly (no external files needed)
+    svg_content = f"""<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+    <defs>
+        <style>
+            {embedded_fonts}
+            {css_content}
+        </style>
+    </defs>
+    <foreignObject width="100%" height="100%">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="width: 800px; height: 600px;">
+            {modified_content}
+        </div>
+    </foreignObject>
+</svg>"""
+    
     # Save SVG file
     with open(output_file, 'w', encoding='utf-8') as f:
         f.write(svg_content)
     
-    print(f"Converted {index_file} to {output_file}")
+    print(f"Converted {index_file} to {output_file} with embedded fonts")
     return True
 
 if __name__ == "__main__":
