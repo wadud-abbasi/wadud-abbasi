@@ -15,16 +15,16 @@
 }
 
 .urduheader1 {
-    font-family: 'Jameel Noori Nastaleeq Kasheeda', 'Noto Nastaliq Urdu', serif;
+    font-family: 'Jameel Noori Nastaleeq Kasheeda', serif;
     direction: rtl;
     text-align: center;
     font-size: 2.0em;
-    line-height: 1.4;
-    margin: 1em 0;
+    line-height: 1.0;
+    margin: 0em 0;
 }
 
 .urduheader2 {
-    font-family: 'Jameel Noori Nastaleeq Kasheeda', 'Noto Nastaliq Urdu', serif;
+    font-family: 'Jameel Noori Nastaleeq Kasheeda',serif;
     direction: rtl;
     text-align: center;
     font-size: 1.5em;
