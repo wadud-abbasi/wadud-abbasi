@@ -6,22 +6,28 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Jameel Noori Nastaleeq Kasheeda';
+    src: url('src/fonts/JameelNooriNastaleeqKasheeda.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 .urduheader1 {
-    font-family: 'Noto Nastaliq Urdu', serif;
+    font-family: 'Jameel Noori Nastaleeq Kasheeda', serif;
     direction: rtl;
     text-align: center;
-    font-size: 2.5em;
-    font-weight: bold;
+    font-size: 2.0em;
     line-height: 1.4;
     margin: 1em 0;
 }
 
 .urduheader2 {
-    font-family: 'Noto Nastaliq Urdu', serif;
+    font-family: 'Jameel Noori Nastaleeq Kasheeda', serif;
     direction: rtl;
-    text-align: right;
-    font-size: 2em;
-    font-weight: bold;
+    text-align: center;
+    font-size: 1.5em;
     line-height: 1.5;
     margin: 0.8em 0;
 }
@@ -29,8 +35,8 @@
 .urdubody {
     font-family: 'Noto Nastaliq Urdu', serif;
     direction: rtl;
-    text-align: right;
-    font-size: 1em;
-    line-height: 1.6;
+    text-align: center;
+    font-size: 1.0em;
+    line-height: 2.0;
     margin: 0.5em 0;
 }
