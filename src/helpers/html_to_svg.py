@@ -57,14 +57,14 @@ def html_to_svg():
             css_content = f.read()
     
     # Create SVG with embedded CSS
-    svg_content = f"""<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+    svg_content = f"""<svg xmlns="http://www.w3.org/2000/svg" width="800" height="300" viewBox="0 0 800 300">
     <defs>
         <style>
             {css_content}
         </style>
     </defs>
     <foreignObject width="100%" height="100%">
-        <div xmlns="http://www.w3.org/1999/xhtml" style="width: 800px; height: 600px;">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="width: 800px; height: 300px;">
             {modified_content}
         </div>
     </foreignObject>
@@ -101,7 +101,7 @@ def html_to_svg():
                 print(f"Error embedding font {font_file.name}: {e}")
     
     # Create SVG with embedded fonts directly (no external files needed)
-    svg_content = f"""<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+    svg_content = f"""<svg xmlns="http://www.w3.org/2000/svg" width="800" height="300" viewBox="0 0 800 300">
     <defs>
         <style>
             {embedded_fonts}
@@ -109,7 +109,7 @@ def html_to_svg():
         </style>
     </defs>
     <foreignObject width="100%" height="100%">
-        <div xmlns="http://www.w3.org/1999/xhtml" style="width: 800px; height: 600px;">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="width: 800px; height: 300px;">
             {modified_content}
         </div>
     </foreignObject>
