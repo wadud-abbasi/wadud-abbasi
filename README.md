@@ -1,10 +1,4 @@
 ![Urdu Content](src/images/index.svg)
-
-<link rel="stylesheet" href="src/styles.css">
-
-<div class='urdubody'> ط ص ھ د ٹ پ ت ب ج </div>
-<div class='urduheader1'> ط ص ھ د ٹ پ ت ب ج </div>
-
   
 <b>To add custom fonts in your GitHub Repository</b>
 ```bash
